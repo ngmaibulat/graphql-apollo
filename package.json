@@ -1,0 +1,22 @@
+{
+    "name": "graphql-apollo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node --test",
+        "build": "tsc",
+        "build:watch": "tsc -w",
+        "start": "node dist/index.js",
+        "dev": "nodemon dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@apollo/server": "^4.7.0",
+        "@types/node": "^18.16.0",
+        "graphql": "^16.6.0"
+    }
+}
